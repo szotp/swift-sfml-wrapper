@@ -22,13 +22,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1F70FD7A1C8D9FA200DF9A6D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82E34F1C81C5C400EA5C18 /* main.swift */; };
-		1F70FD7B1C8D9FA200DF9A6D /* ParticleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FC0DB1C858A4300FB727B /* ParticleTest.swift */; };
-		7D23E0C81C8ACEC200224639 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82E3481C819BC600EA5C18 /* Extras.swift */; };
 		7D376CAA1C941DCB00CAEEDC /* Ast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CA71C941DCB00CAEEDC /* Ast.swift */; };
 		7D376CAB1C941DCB00CAEEDC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CA81C941DCB00CAEEDC /* main.swift */; };
 		7D376CAC1C941DCB00CAEEDC /* TypeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CA91C941DCB00CAEEDC /* TypeInfo.swift */; };
-		7D376CBA1C94229600CAEEDC /* Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CB81C94228500CAEEDC /* Generated.swift */; };
+		7D376CBD1C94239A00CAEEDC /* Fixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CBC1C94239A00CAEEDC /* Fixes.swift */; };
+		7D376CC31C9423A400CAEEDC /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CBF1C9423A400CAEEDC /* Extras.swift */; };
+		7D376CC41C9423A400CAEEDC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CC01C9423A400CAEEDC /* main.swift */; };
+		7D376CC51C9423A400CAEEDC /* ParticleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CC11C9423A400CAEEDC /* ParticleTest.swift */; };
+		7D376CC61C9423A400CAEEDC /* TestEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CC21C9423A400CAEEDC /* TestEngine.swift */; };
+		7D376CC81C9423D800CAEEDC /* Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D376CC71C9423D800CAEEDC /* Generated.swift */; };
 		7D82E30C1C818E6900EA5C18 /* CCharArrayOfCCharArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82E2E71C818E6900EA5C18 /* CCharArrayOfCCharArray.swift */; };
 		7D82E30D1C818E6900EA5C18 /* ChildVisitResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82E2E81C818E6900EA5C18 /* ChildVisitResult.swift */; };
 		7D82E30E1C818E6900EA5C18 /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82E2E91C818E6900EA5C18 /* Cursor.swift */; };
@@ -66,8 +68,6 @@
 		7D82E32E1C818E6900EA5C18 /* TypeKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82E3091C818E6900EA5C18 /* TypeKind.swift */; };
 		7D82E32F1C818E6900EA5C18 /* TypeKind+Stringification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82E30A1C818E6900EA5C18 /* TypeKind+Stringification.swift */; };
 		7D82E3301C818E6900EA5C18 /* Workarounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82E30B1C818E6900EA5C18 /* Workarounds.swift */; };
-		7D82E3321C818FE400EA5C18 /* Fixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82E3311C818FE400EA5C18 /* Fixes.swift */; };
-		7DE485261C91DF2400A8DDEC /* TestEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE485241C91DEF200A8DDEC /* TestEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,13 +110,18 @@
 
 /* Begin PBXFileReference section */
 		1F5C9A701C804CF50006BE06 /* ClangTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClangTool; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F7FC0DB1C858A4300FB727B /* ParticleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleTest.swift; sourceTree = "<group>"; };
 		7D376CA61C941DCB00CAEEDC /* sfml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sfml.h; sourceTree = "<group>"; };
 		7D376CA71C941DCB00CAEEDC /* Ast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ast.swift; sourceTree = "<group>"; };
 		7D376CA81C941DCB00CAEEDC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7D376CA91C941DCB00CAEEDC /* TypeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeInfo.swift; sourceTree = "<group>"; };
-		7D376CB81C94228500CAEEDC /* Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generated.swift; sourceTree = "<group>"; };
-		7D82E2DF1C818E4400EA5C18 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		7D376CBB1C94239A00CAEEDC /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		7D376CBC1C94239A00CAEEDC /* Fixes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fixes.swift; sourceTree = "<group>"; };
+		7D376CBE1C9423A400CAEEDC /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		7D376CBF1C9423A400CAEEDC /* Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		7D376CC01C9423A400CAEEDC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7D376CC11C9423A400CAEEDC /* ParticleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleTest.swift; sourceTree = "<group>"; };
+		7D376CC21C9423A400CAEEDC /* TestEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEngine.swift; sourceTree = "<group>"; };
+		7D376CC71C9423D800CAEEDC /* Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generated.swift; sourceTree = "<group>"; };
 		7D82E2E01C818E5300EA5C18 /* BuildSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuildSystem.h; path = "ClangWrapper.Swift/ClangWrapper/include/clang-c/BuildSystem.h"; sourceTree = "<group>"; };
 		7D82E2E11C818E5300EA5C18 /* CXCompilationDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXCompilationDatabase.h; path = "ClangWrapper.Swift/ClangWrapper/include/clang-c/CXCompilationDatabase.h"; sourceTree = "<group>"; };
 		7D82E2E21C818E5300EA5C18 /* CXErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXErrorCode.h; path = "ClangWrapper.Swift/ClangWrapper/include/clang-c/CXErrorCode.h"; sourceTree = "<group>"; };
@@ -161,12 +166,7 @@
 		7D82E3091C818E6900EA5C18 /* TypeKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TypeKind.swift; path = ClangWrapper.Swift/ClangWrapper/TypeKind.swift; sourceTree = "<group>"; };
 		7D82E30A1C818E6900EA5C18 /* TypeKind+Stringification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TypeKind+Stringification.swift"; path = "ClangWrapper.Swift/ClangWrapper/TypeKind+Stringification.swift"; sourceTree = "<group>"; };
 		7D82E30B1C818E6900EA5C18 /* Workarounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Workarounds.swift; path = ClangWrapper.Swift/ClangWrapper/Workarounds.swift; sourceTree = "<group>"; };
-		7D82E3311C818FE400EA5C18 /* Fixes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fixes.swift; sourceTree = "<group>"; };
-		7D82E33B1C819ABA00EA5C18 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		7D82E3401C819AEC00EA5C18 /* GameTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D82E3481C819BC600EA5C18 /* Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
-		7D82E34F1C81C5C400EA5C18 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		7DE485241C91DEF200A8DDEC /* TestEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,8 +190,7 @@
 		1F5C9A671C804CF50006BE06 = {
 			isa = PBXGroup;
 			children = (
-				7D82E33A1C819A7300EA5C18 /* ClangGenerated */,
-				7D82E3331C8192CD00EA5C18 /* ClangWrapperHelper */,
+				7D82E33A1C819A7300EA5C18 /* GameTest */,
 				7D82E2DE1C818E3300EA5C18 /* ClangWrapper */,
 				1F5C9A721C804CF50006BE06 /* ClangTool */,
 				1F5C9A711C804CF50006BE06 /* Products */,
@@ -210,6 +209,8 @@
 		1F5C9A721C804CF50006BE06 /* ClangTool */ = {
 			isa = PBXGroup;
 			children = (
+				7D376CBB1C94239A00CAEEDC /* Bridge.h */,
+				7D376CBC1C94239A00CAEEDC /* Fixes.swift */,
 				7D376CA61C941DCB00CAEEDC /* sfml.h */,
 				7D376CA71C941DCB00CAEEDC /* Ast.swift */,
 				7D376CA81C941DCB00CAEEDC /* main.swift */,
@@ -269,26 +270,17 @@
 			name = ClangWrapper;
 			sourceTree = "<group>";
 		};
-		7D82E3331C8192CD00EA5C18 /* ClangWrapperHelper */ = {
+		7D82E33A1C819A7300EA5C18 /* GameTest */ = {
 			isa = PBXGroup;
 			children = (
-				7D82E2DF1C818E4400EA5C18 /* Bridge.h */,
-				7D82E3311C818FE400EA5C18 /* Fixes.swift */,
+				7D376CC71C9423D800CAEEDC /* Generated.swift */,
+				7D376CBE1C9423A400CAEEDC /* module.modulemap */,
+				7D376CBF1C9423A400CAEEDC /* Extras.swift */,
+				7D376CC01C9423A400CAEEDC /* main.swift */,
+				7D376CC11C9423A400CAEEDC /* ParticleTest.swift */,
+				7D376CC21C9423A400CAEEDC /* TestEngine.swift */,
 			);
-			name = ClangWrapperHelper;
-			sourceTree = "<group>";
-		};
-		7D82E33A1C819A7300EA5C18 /* ClangGenerated */ = {
-			isa = PBXGroup;
-			children = (
-				7D376CB81C94228500CAEEDC /* Generated.swift */,
-				7D82E33B1C819ABA00EA5C18 /* module.modulemap */,
-				7D82E3481C819BC600EA5C18 /* Extras.swift */,
-				7D82E34F1C81C5C400EA5C18 /* main.swift */,
-				1F7FC0DB1C858A4300FB727B /* ParticleTest.swift */,
-				7DE485241C91DEF200A8DDEC /* TestEngine.swift */,
-			);
-			name = ClangGenerated;
+			path = GameTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,8 +384,8 @@
 			files = (
 				7D82E3191C818E6900EA5C18 /* CursorKind+Aliases.swift in Sources */,
 				7D82E32E1C818E6900EA5C18 /* TypeKind.swift in Sources */,
-				7D82E3321C818FE400EA5C18 /* Fixes.swift in Sources */,
 				7D82E31E1C818E6900EA5C18 /* Debug.swift in Sources */,
+				7D376CBD1C94239A00CAEEDC /* Fixes.swift in Sources */,
 				7D82E31D1C818E6900EA5C18 /* CXXAccessSpecifier.swift in Sources */,
 				7D376CAA1C941DCB00CAEEDC /* Ast.swift in Sources */,
 				7D82E3231C818E6900EA5C18 /* RemotePointerTracker.swift in Sources */,
@@ -438,11 +430,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D23E0C81C8ACEC200224639 /* Extras.swift in Sources */,
-				7DE485261C91DF2400A8DDEC /* TestEngine.swift in Sources */,
-				1F70FD7B1C8D9FA200DF9A6D /* ParticleTest.swift in Sources */,
-				7D376CBA1C94229600CAEEDC /* Generated.swift in Sources */,
-				1F70FD7A1C8D9FA200DF9A6D /* main.swift in Sources */,
+				7D376CC41C9423A400CAEEDC /* main.swift in Sources */,
+				7D376CC61C9423A400CAEEDC /* TestEngine.swift in Sources */,
+				7D376CC51C9423A400CAEEDC /* ParticleTest.swift in Sources */,
+				7D376CC81C9423D800CAEEDC /* Generated.swift in Sources */,
+				7D376CC31C9423A400CAEEDC /* Extras.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +543,7 @@
 				LIBRARY_SEARCH_PATHS = "$(DEVELOPER_DIR)/Toolchains/XcodeDefault.xctoolchain/usr/lib";
 				OTHER_LDFLAGS = "-lClang";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = Bridge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = ClangTool/Bridge.h;
 			};
 			name = Debug;
 		};
@@ -562,7 +554,7 @@
 				LIBRARY_SEARCH_PATHS = "$(DEVELOPER_DIR)/Toolchains/XcodeDefault.xctoolchain/usr/lib";
 				OTHER_LDFLAGS = "-lClang";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = Bridge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = ClangTool/Bridge.h;
 			};
 			name = Release;
 		};
@@ -583,20 +575,24 @@
 		7D82E3451C819AEC00EA5C18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = /usr/local/include;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/GameTest";
 			};
 			name = Debug;
 		};
 		7D82E3461C819AEC00EA5C18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = /usr/local/include;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/GameTest";
 			};
 			name = Release;
 		};
@@ -628,6 +624,7 @@
 				7D376CB11C94222D00CAEEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D82E3441C819AEC00EA5C18 /* Build configuration list for PBXNativeTarget "GameTest" */ = {
 			isa = XCConfigurationList;
