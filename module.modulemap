@@ -1,0 +1,21 @@
+module CSFML [system] {
+    header "/usr/local/include/SFML/System.h"
+    header "/usr/local/include/SFML/Window.h"
+    header "/usr/local/include/SFML/Graphics.h"
+    header "/usr/local/include/SFML/Audio.h"
+    header "/usr/local/include/SFML/Network.h"
+    
+    //header "/usr/include/SDL2/SDL_image.h"
+    //header "/usr/include/SDL2/SDL_mixer.h"
+    //header "/usr/include/SDL2/SDL2_gfxPrimitives.h"
+    //header "/usr/include/SDL2/SDL2_rotozoom.h"
+    //header "/usr/include/SDL2/SDL_net.h"
+    //header "/usr/include/SDL2/SDL_ttf.h"
+    //header "/usr/include/SDL2/SDL_syswm.h"
+    link "csfml-graphics"
+    link "csfml-window"
+    link "csfml-system"
+    link "csfml-audio"
+    link "csfml-network"
+    export *
+}

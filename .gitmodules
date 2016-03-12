@@ -1,0 +1,3 @@
+[submodule "ClangWrapper.Swift"]
+	path = ClangWrapper.Swift
+	url = https://github.com/Eonil/ClangWrapper.Swift.git
